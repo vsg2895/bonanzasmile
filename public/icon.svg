@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+  <!-- BonanzaSmile mark: the smile from Logo.tsx — two navy eyes and a wide
+       navy curve on a sunny yellow disc. The brand is a smile, drawn as one.
+
+       A full DISC rather than the rounded tile the siblings use: this site's
+       whole language is round, and the face only reads as a face when the
+       ground it sits on is circular.
+
+       The first <rect fill> is what app/apple-icon.tsx reads as the 180x180
+       background plate, so one is drawn behind the disc in the same yellow —
+       iOS masks the image into a rounded square and composites anything
+       transparent onto black. src/app/favicon.ico is the same artwork
+       rasterised at 16/32/48 — see scripts/make-favicon.py. -->
+  <rect width="42" height="42" rx="21" fill="#ffc93c"/>
+  <circle cx="14.5" cy="16.5" r="2.6" fill="#1b2a4a"/>
+  <circle cx="27.5" cy="16.5" r="2.6" fill="#1b2a4a"/>
+  <path d="M11.5 24.5c2.4 4.4 5.6 6.4 9.5 6.4s7.1-2 9.5-6.4" fill="none" stroke="#1b2a4a" stroke-width="3.2" stroke-linecap="round"/>
+</svg>
